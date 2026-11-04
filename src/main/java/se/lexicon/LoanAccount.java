@@ -1,7 +1,7 @@
 package se.lexicon;
 
 public class LoanAccount extends Account {
-    private double loanRate;
+    private final double loanRate;
 
     public LoanAccount(String holder, double balance, double loanRate) {
         super(holder, balance);

@@ -1,7 +1,7 @@
 package se.lexicon;
 
 public class BankApp {
-    public static void main(String[] args) {
+    static void main() {
         Bank lexiconBank = new Bank("Lexicon Bank");
         
         // Create accounts
